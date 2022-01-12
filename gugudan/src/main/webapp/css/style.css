@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+	text-align : center;
+	font-family : gulim;
+	color : #424242;
+}
+header {
+	width: 100%;
+	padding-top:0.1rem;
+	padding-bottom:0.1rem;
+	background-color: #F6E3CE;
+}
+.box {
+	margin: 0px auto;
+	width: 98%; height: 0;
+	padding-bottom: 75%;
+	background-color: #F7F2E0;
+}
+.box a {
+	text-decoration: none;
+	color: white;
+	border: 1px;
+	margin : 1rem;
+}
+nav {
+	text-align : left;
+	padding: 0.2rem;
+	background-color: #626262;
+}
+section{
+	width: 80% auto;
+	background-color: #ffffff;
+}
+footer {
+	text-align: center;
+	margin: 0 auto;
+	width: 98%;
+	background-color: #F6E3CE;
+}
