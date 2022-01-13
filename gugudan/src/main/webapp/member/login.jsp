@@ -8,17 +8,6 @@
 </head>
 <link rel="stylesheet" href="../css/style.css">
 
-	<script>
-		
-		function fn_onload() {
-			var f = document.frm;
-			
-			f.id.focus();
-			f.onload();
-			
-		}
-	</script>
-	
 <body onload="fn_onload()">
 	<div class=box>
 	<header>
@@ -38,7 +27,7 @@
 					<td><input type="password" placeholder="비밀번호" name="pw" required></td>
 				</tr>			
 			</table>			
-				<button type="submit" onclick="fn_submit();return false;">로그인</button>
+				<button type="submit">로그인</button>
 				<button type="button">회원가입</button>
 		</section>
 	</form>
