@@ -29,18 +29,16 @@ nav {
 	padding: 0.2rem;
 	background-color: #626262;
 }
-section{
+section {
 	text-align: center;
-	width: 80% auto;
+	width: 80%;
 	margin: 10%;
 	
 }
-section table {
-	border: 1px;
-}
+
 button {
 	align: center;
-	margin: 0.5rem;
+	margin: 0.3rem;
 }
 
 footer {
