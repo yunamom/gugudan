@@ -10,10 +10,11 @@ header {
 	padding-top:0.1rem;
 	padding-bottom:0.1rem;
 	background-color: #F6E3CE;
+	color: #ffffff;
 }
 .box {
 	margin: 0px auto;
-	width: 98%; height: 0;
+	width: 99%; height: 0;
 	padding-bottom: 75%;
 	background-color: #F7F2E0;
 }
@@ -29,12 +30,22 @@ nav {
 	background-color: #626262;
 }
 section{
+	text-align: center;
 	width: 80% auto;
-	background-color: #ffffff;
+	margin: 15%;
+	
 }
+section table {
+	border: 1px;
+}
+button {
+	align: center;
+	margin: 0.5rem;
+}
+
 footer {
 	text-align: center;
 	margin: 0 auto;
-	width: 98%;
+	width: 99%;
 	background-color: #F6E3CE;
 }
