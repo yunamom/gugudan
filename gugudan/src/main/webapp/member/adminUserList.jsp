@@ -3,7 +3,6 @@
 <%
 String userList[][] = (String[][])session.getAttribute("userList");
 int userCnt = (Integer)session.getAttribute("userCnt");
-
 %>
 <html>
 <head>
@@ -17,7 +16,7 @@ int userCnt = (Integer)session.getAttribute("userCnt");
 		<h2>관리자모드</h2>
 	</header>
 		<nav>
-		<%@ include file="../include/topmenu.jsp" %>
+		<%@include file="../include/topmenu.jsp" %>
 		</nav>
 	<section>
 		<h3> 회 원 리 스 트 </h3>
@@ -28,11 +27,10 @@ int userCnt = (Integer)session.getAttribute("userCnt");
 				<th>이름</th>
 				<th>성별</th>
 				<th>삭제</th>
-			</tr>
-			<tbody>
+			</tr>		
 			<%for(int i=1; i<userCnt; i++) {%>
 			<tr align="center">
-				<% for(int j=0; j<userList[i].length; j++) {%>
+				<%for(int j=0; j<userList[i].length; j++) {%>
 				<td><%=userList[i][j]%></td>
 				<%}%>
 				<td>
@@ -40,8 +38,7 @@ int userCnt = (Integer)session.getAttribute("userCnt");
 					onclick="location='../memberDAO/deleteAction.jsp?user=<%=i%>&&userCnt=<%=userCnt%>'">삭제</button>
 				</td>
 			</tr>
-			<%}%>
-			</tbody>
+			<%}%>		
 		</table>
 	</section>
 	</div>
