@@ -18,7 +18,7 @@ header {
 	padding-bottom: 75%;
 	background-color: #F7F2E0;
 }
-.box a {
+ a {
 	text-decoration: none;
 	color: white;
 	border: 1px;
@@ -33,9 +33,7 @@ section {
 	text-align: center;
 	width: 80%;
 	margin: 10%;
-	
 }
-
 button {
 	align: center;
 	margin: 0.3rem;

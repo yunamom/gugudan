@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
+	request.setCharacterEncoding("UTF-8");
+
 	String userList[][] = (String[][])session.getAttribute("userList");
 	int userCnt = (Integer)session.getAttribute("userCnt");
 	String log = (String)session.getAttribute("log");

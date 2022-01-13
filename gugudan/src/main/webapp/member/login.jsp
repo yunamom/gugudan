@@ -28,7 +28,7 @@
 				</tr>			
 			</table>			
 				<button type="submit">로그인</button>
-				<button type="button">회원가입</button>
+				<button type="button" action="'href=join.jsp'">회원가입</button>
 		</section>
 	</form>
 	</div>

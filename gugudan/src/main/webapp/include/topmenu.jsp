@@ -13,9 +13,10 @@ String log = (String)session.getAttribute("log");
 <title>Insert title here</title>
 </head>
 <body>
+	
 		<a href="../member/main.jsp">메인</a>
 		<%if(log==null){%>
-		<a href="../member/main.jsp">회원가입</a>
+		<a href="../member/join.jsp">회원가입</a>
 		<a href="../member/login.jsp">로그인</a>
 		<%}else if(log.equals("관리자")){%>
 		<a href="../member/admin.jsp">관리자</a>
@@ -24,6 +25,7 @@ String log = (String)session.getAttribute("log");
 		<%}else{%>	
 		<a href="../member/gugudan.jsp">구구단게임</a>
 		<a href="../memberDAO/logoutAction.jsp">로그아웃</a>
-		<%}%>	
+		<%}%>
+	
 </body>
 </html>
